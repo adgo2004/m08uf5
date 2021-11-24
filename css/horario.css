@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    font-family: 'PT Serif';
+}
+table{
+    width: 100%;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.dia{
+    background-color: blanchedalmond;
+}
+
+.hora{
+    background-color: rgba(155, 186, 245, 0.65);
+}
+
+.seg{
+    background-color: rgb(251, 135, 135);
+}
+
+.web{
+    background-color: rgb(179, 255, 179);
+}
+
+.red{
+    background-color: rgb(211, 148, 255);
+}
+
+.sis{
+    background-color: rgba(253, 253, 85, 0.829);
+}
+
+.tut{
+    background-color: turquoise;
+}
+
+.fol{
+    background-color: rgb(255, 169, 226);
+}
