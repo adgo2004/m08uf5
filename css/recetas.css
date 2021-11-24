@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 .receta{
     font-family: 'Spectral SC';
+}
+
+.papas{
+    font-family: 'PT Serif';
 }
 
 table{
@@ -16,7 +21,7 @@ table{
 
 th, td {
     color: red;
-    width: 60px; 
+    width: 60px;
     border: 2px solid black;
 }
 
@@ -32,7 +37,7 @@ td{
     background-color: deepskyblue;
 }
 
-body{
+.receta{
     background-color: cornflowerblue;
 }
 
