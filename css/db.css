@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+.goku{
+    font-family: Roboto;
+}
+.vegeta{
+    font-family: Noto Sans JP;
+}
+.jiren{
+    font-family: Oswald;
+}
+.boo{
+    font-family: Roboto Mono;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    width: 60px;
+    border: 2px solid black;
+}
+
+table, th, td {
+    text-align: center;
+}
+
+.gokudef{
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+td{
+    background-color: black;
+    text-align: center;
+}
+
