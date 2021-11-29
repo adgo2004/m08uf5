@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
-
 .goku{
     font-family: Roboto;
 }
@@ -43,3 +42,6 @@ td{
     text-align: center;
 }
 
+#g1, #g2, #g3, #g4{
+    background-color: crimson;
+}
