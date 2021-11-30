@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.curri{
+    color: green;
+    text-align: center;
+}
+
+.basic{
+    background-color: rgb(255, 215, 141);
+}
+
+.pais{
+    background-color: rgb(187, 255, 187);
+}
+
+.estudio{
+    background-color: rgb(255, 166, 166);
+}
+
+.idioma{
+    background-color: rgb(163, 186, 255);
+}
