@@ -15,21 +15,14 @@
 .boo{
     font-family: Roboto Mono;
 }
-table{
+
+table, th, td {
+    text-align: center;
     border: 2px solid black;
     border-collapse: collapse;
     width: 50%;
     margin: 20px;
     padding: 20px;
-}
-
-th, td {
-    width: 60px;
-    border: 2px solid black;
-}
-
-table, th, td {
-    text-align: center;
 }
 
 .gokudef{
@@ -44,4 +37,9 @@ td{
 
 #g1, #g2, #g3, #g4{
     background-color: crimson;
+}
+
+a:hover{
+    color: aqua;
+    background-color: beige;
 }

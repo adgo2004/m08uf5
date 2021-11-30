@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="#" method="get">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="fname">Nombre</label><br>
+            <input type="text" name="username" maxlength="30" id="fname" placeholder="Introduce tu nombre" required>
+            <br><br>
+
+            <label for="fsurname">Apellido</label><br>
+            <input type="text" name="surname" maxlength="30" id="fsurname" placeholder="Introduce tu apellido">
+            <br><br>
+
+            Género: <br>
+            <input type="radio" name="genero" id="hombre" value="H" checked="checked">
+            <label for="hombre">Hombre</label>
+
+            <input type="radio" name="genero" id="mujer" value="M">
+            <label for="mujer">Mujer</label>
+        </fieldset>
+        <br><br>
+
+        Aficiones: <br>
+        <input type="checkbox" name="aficiones" value="hipica" id="hipica">
+        <label for="hipica">Hípica</label>
+        <br>
+        <input type="checkbox" name="aficiones" value="natacion" id="natacion">
+        <label for="natacion">Natación</label>
+        <br><br>
+
+        <label for="pwd">Contraseña</label><br>
+        <input type="password" name="pwd" id="pwd" placeholder="Introduce tu contraseña">
+        <br><br>
+
+        Estudios previos: <br>
+        <select name="estudios" id="estudios">
+            <option value="">Selecciona una opción</option>
+            <option value="smx">FP de SMX</option>
+            <option value="dep">FP de Deportes</option>
+            <option value="api">FP de Apicultor</option>
+            <option value="sex">FP de Sexo</option>
+        </select>
+        <br><br>
+
+        <label for="comentarios">Comentarios</label><br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+            placeholder="Introduce tus opiniones"></textarea>
+        <br><br>
+
+        <input type="submit" name="Enviar" id="enviar">
+        <input type="reset" value="Borrar" id="borrar">
+    </form>
+
+</body>
+
+</html>
