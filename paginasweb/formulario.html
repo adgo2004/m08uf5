@@ -11,71 +11,73 @@
 
 <body>
     <h1 class="curri">Curriculum</h1>
-    <form action="#" method="get">
-        <fieldset class="basic">
-            <legend>Información Básica</legend>
-            <label for="fname">Nombre</label><br>
-            <input type="text" name="username" maxlength="30" id="fname" placeholder="Introduce tu nombre" required>
-            <br><br>
+    <fieldset>
+        <form action="#" method="get">
+            <fieldset class="basic">
+                <legend class="titulo1"><b>Información Básica</b></legend>
+                <label for="fname">Nombre</label><br>
+                <input type="text" name="username" maxlength="30" id="fname" placeholder="Introduce tu nombre" required>
+                <br><br>
 
-            <form action="/action_page.php">
+
                 <label for="quantity">Altura en centímetros:</label> <br>
                 <input type="number" id="quantity" name="quantity" min="100" max="250">
-            </form>
-            <br><br>
 
-            <label for="mail">Email</label><br>
-            <input type="text" name="mail" maxlength="30" id="mail" placeholder="Introduce tu mail" required>
-            <br><br>
+                <br><br>
 
-            <form>
+                <label for="mail">Email</label><br>
+                <input type="text" name="mail" maxlength="30" id="mail" placeholder="Introduce tu mail" required>
+                <br><br>
+
+
                 <label for="birthday">Fecha de nacimiento:</label><br>
                 <input type="date" id="birthday" name="birthday">
-            </form>
 
-        </fieldset>
-        <br>
-        <fieldset class="pais">
-            <legend>Nacionalidad</legend>
-            <input type="radio" name="pais" id="esp" value="Esp" checked="checked">
-            <label for="esp">Española</label>
+            </fieldset>
+            <br>
+            <fieldset class="pais">
+                <legend class="titulo2"><b>Nacionalidad</b></legend>
+                <input type="radio" name="pais" id="esp" value="Esp" checked="checked">
+                <label for="esp">Española</label>
 
-            <input type="radio" name="pais" id="com" value="C">
-            <label for="com">Comunitaria (EU)</label>
+                <input type="radio" name="pais" id="com" value="C">
+                <label for="com">Comunitaria (EU)</label>
 
-            <input type="radio" name="pais" id="no" value="No">
-            <label for="no">No Comunitario</label>
-        </fieldset>
-        <br>
+                <input type="radio" name="pais" id="no" value="No">
+                <label for="no">No Comunitario</label>
+            </fieldset>
+            <br>
 
-        <fieldset class="estudio">
-            <legend>Estudios</legend>
-            <select name="estudios" id="estudios">
-                <option value="">Selecciona una opción</option>
-                <option value="smx">FP de SMX</option>
-                <option value="dep">FP de Deportes</option>
-                <option value="api">FP de Apicultor</option>
-                <option value="soc">FP de Socializar</option>
-            </select>
-        </fieldset>
-        <br>
+            <fieldset class="estudio">
+                <legend class="titulo3"><b>Estudios</b></legend>
+                <select name="estudios" id="estudios">
+                    <option value="">Selecciona una opción</option>
+                    <option value="smx">FP de SMX</option>
+                    <option value="dep">FP de Deportes</option>
+                    <option value="api">FP de Apicultor</option>
+                    <option value="soc">FP de Socializar</option>
+                </select>
+            </fieldset>
+            <br>
 
-        <fieldset class="idioma">
-            <legend>Idiomas</legend>
-            <input type="checkbox" name="idioma" value="cast" id="cast">
-            <label for="cast">Castellano</label>
-            <input type="checkbox" name="idioma" value="cat" id="cat">
-            <label for="cat">Catalán</label>
-            <input type="checkbox" name="idioma" value="ing" id="ing">
-            <label for="ing">Inglés</label>
-            <input type="checkbox" name="idioma" value="fra" id="fra">
-            <label for="fra">Francés</label>
-        </fieldset>
-        <br>
-
-        <input type="submit" name="Enviar" id="enviar">
-        <input type="reset" value="Borrar" id="borrar">
-    </form>
+            <fieldset class="idioma">
+                <legend class="titulo4"><b>Idiomas</b></legend>
+                <input type="checkbox" name="idioma" value="cast" id="cast">
+                <label for="cast">Castellano</label>
+                <input type="checkbox" name="idioma" value="cat" id="cat">
+                <label for="cat">Catalán</label>
+                <input type="checkbox" name="idioma" value="ing" id="ing">
+                <label for="ing">Inglés</label>
+                <input type="checkbox" name="idioma" value="fra" id="fra">
+                <label for="fra">Francés</label>
+            </fieldset>
+            <br>
+            <fieldset class="fin">
+                <input type="submit" name="Enviar" id="enviar">
+                <input type="reset" value="Borrar" id="borrar">
+            </fieldset>
+        </form>
+    </fieldset>
 </body>
 
 </html>
