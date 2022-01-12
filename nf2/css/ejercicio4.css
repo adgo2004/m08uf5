@@ -1,0 +1,61 @@
+.supremo{
+  width: 1000px;
+  height: 1000px;
+}
+
+#hover:hover{
+  opacity: 50%;
+  border-color: ivory;
+}
+
+.caballomar {
+  border: 2px solid black;
+  background: url(/nf2/imagenes/embarazados.jpg);
+  height: 500px;
+  width: 768px;
+  position: absolute;
+  background-size: initial;
+}
+
+.vaca {
+  border: 2px solid black;
+  background: url(/nf2/imagenes/vaca.jpg);
+  height: 330px;
+  width: 600px;
+  margin-left: 772px;
+  position: absolute;
+}
+
+.cocodrilo {
+  border: 2px solid black;
+  background: url(/nf2/imagenes/cocodrilo.jpg);
+  height: 670px;
+  width: 1150px;
+  margin-left: 772px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.charizard {
+  border: 2px solid black;
+  background: url(/nf2/imagenes/charizard.png);
+  height: 445px;
+  width: 768px;
+  margin-top: 170px;
+}
+
+.blanco{
+  border: 2px solid black;
+  background-color: rgb(246, 215, 255);
+  height: 51px;
+  width: 768px;
+}
+
+.blanco2{
+  border: 2px solid black;
+  background-color: rgb(246, 215, 255);
+  height: 330px;
+  width: 547px;
+  margin-left: 1375px;
+}
+
