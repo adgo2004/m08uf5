@@ -1,0 +1,53 @@
+.MainSupremo{
+    width: 830px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: #fef2cd;
+}
+
+footer {           
+    text-align: center;
+}
+
+.sirus{
+    text-align: center;
+}
+
+.sighned{
+    text-align: center;
+}
+
+.der1{
+    float: right;
+}
+
+.der2{
+    float: right;
+    margin-top: 100px;
+    margin-right: -133px;
+}
+
+.izq1{
+    float: left;
+}
+
+.izq2{
+    float: left;
+    margin-top: -190px;
+}
+
+.izq3{
+    float: left;
+    margin-top: 80px;
+    margin-left: -132px;
+}
+
+.pie{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.cara{
+    text-align: center;
+    width: 105gif;
+}
