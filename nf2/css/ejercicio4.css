@@ -19,6 +19,7 @@
 
 .vaca {
   border: 2px solid black;
+  background: url(../imagenes/vaca.jpg);
   height: 330px;
   width: 600px;
   margin-left: 772px;
