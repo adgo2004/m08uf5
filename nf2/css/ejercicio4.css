@@ -38,7 +38,7 @@
 
 .charizard {
   border: 2px solid black;
-  background: url(../imagenes/charizard.png);
+  background: url(/imagenes/charizard.png);
   height: 445px;
   width: 768px;
   margin-top: 170px;
