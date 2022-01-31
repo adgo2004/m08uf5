@@ -34,19 +34,19 @@
 
 #nintendoF{
     width: 1903px;
-    height: 8620px;
+    height: 8975px;
     background-color: rgb(255, 156, 153);
 }
 
 #sonyF{
     width: 1903px;
-    height: 4735px;
+    height: 4755px;
     background-color: rgb(146, 172, 255);
 }
 
 #microsoftF{
     width: 1903px;
-    height: 4310px;
+    height: 4330px;
     background-color: rgb(143, 255, 152);
 }
 
@@ -94,6 +94,7 @@
 
 .hola{
     text-align: center;
+    font-size: 30px;
 }
 
 .titulot{
