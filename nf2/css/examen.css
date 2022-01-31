@@ -1,0 +1,129 @@
+#titulo{
+    text-align: center;
+    font-size: 200px;
+}
+
+#supremo{
+    width: 1903px;
+    height: 1000px;
+}
+
+.xbox{
+    margin-top: -100px;
+}
+
+.home{
+    margin-top: -100px;
+}
+
+.ninti{
+    margin-top: -100px;
+}
+
+.sony{
+    margin-top: -100px;
+}
+
+.container{
+    text-align: center;
+}
+
+#consolas{
+    width: 1903px;
+}
+
+#nintendoF{
+    width: 1903px;
+    height: 8620px;
+    background-color: rgb(255, 156, 153);
+}
+
+#sonyF{
+    width: 1903px;
+    height: 4735px;
+    background-color: rgb(146, 172, 255);
+}
+
+#microsoftF{
+    width: 1903px;
+    height: 4310px;
+    background-color: rgb(143, 255, 152);
+}
+
+.historia{
+    background-color: rgb(219, 231, 231);
+    text-align: center;
+}
+
+.titulos{
+    background-color: rgb(219, 231, 231);
+    text-align: center;
+}
+
+.consolas{
+    background-color: rgb(219, 231, 231);
+    text-align: center;
+}
+
+.ventas{
+    background-color: rgb(219, 231, 231);
+    text-align: center;
+}
+
+.primero{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.segundo{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+#tabla{
+    border-collapse: collapse;
+    border: black;
+    width: 100%;
+    text-align: center;
+}
+
+.titulot, .hola{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.hola{
+    text-align: center;
+}
+
+.titulot{
+    width: 100%;
+}
+
+img{
+    width: 500px;
+}
+
+#hola2{
+    margin-top: 100px;
+}
+
+.imagen{
+    width: 350px;
+}
+
+.imagen2{
+    width: 250px;
+}
+
+.imagen_sony{
+    width: 500px;
+}
+
+.imagen_microsoft{
+    width: 500px;
+}
+
+.imagen_mando{
+    width: 400px;
+}
